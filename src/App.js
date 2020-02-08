@@ -1,14 +1,39 @@
 import React from "react";
 import "./App.css";
+import CustomerCard from "./components/CustomerCard";
+import Pagination from "./components/Pagination";
 const sample = require("./data/sample.json");
 
-function App() {
-    return (
-        <div className="App">
-            A clean template is a happy template.
-            <div>{sample[0].Payee.Name}</div>
-        </div>
-    );
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { activePage: 0 };
+    }
+
+    handlePageSelect = e => {
+        e.preventDefault();
+
+        this.setState({ activePage: e.target.value });
+    };
+
+    render() {
+        return (
+            <div className="App">
+                <CustomerCard />
+
+                <div>{this.state.activePage}</div>
+                <ul>
+                    {sample.map((el, i) => {
+                        return <li key={i}>{el.Payee.Name}</li>;
+                    })}
+                </ul>
+                <Pagination
+                    sample={sample}
+                    handlePageSelect={this.handlePageSelect}
+                />
+            </div>
+        );
+    }
 }
 
 export default App;
