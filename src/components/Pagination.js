@@ -2,20 +2,22 @@ import React from "react";
 
 const Pagination = props => {
     const sample = props.sample;
+    const navContent = [];
+    const navLength = Math.ceil(sample.length / 6);
+
+    for (let i = 1; i <= navLength; i++) {
+        navContent.push(i);
+    }
+
     return (
         <ul>
-            {sample.map((el, i) => {
+            {navContent.map(i => {
                 return (
-                    <div>
-                        <li key={i + 1}>
-                            <button
-                                onClick={props.handlePageSelect}
-                                value={i + 1}
-                            >
-                                {i + 1}
-                            </button>
-                        </li>
-                    </div>
+                    <li key={i}>
+                        <button onClick={props.handlePageSelect} value={i}>
+                            {i}
+                        </button>
+                    </li>
                 );
             })}
         </ul>

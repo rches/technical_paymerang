@@ -7,24 +7,42 @@ const sample = require("./data/sample.json");
 class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { activePage: 1 };
+        this.state = { activePage: 1, activeData: [] };
     }
-
     handlePageSelect = e => {
         e.preventDefault();
-
         this.setState({ activePage: e.target.value });
     };
+
+    makePage = (arr, perPage, whatPage) => {
+        return arr.slice((whatPage - 1) * perPage, whatPage * perPage);
+    };
+
+    componentDidUpdate(prevProps, prevState) {
+        if (this.state.activePage !== prevState.activePage) {
+            this.setState({
+                activeData: this.makePage(sample, 6, this.state.activePage)
+            });
+        }
+    }
+
+    componentDidMount() {
+        this.setState({
+            activeData: this.makePage(sample, 6, this.state.activePage)
+        });
+    }
 
     render() {
         return (
             <div className="App">
-                <CustomerCard />
-
                 <div>{this.state.activePage}</div>
                 <ul>
-                    {sample.map((el, i) => {
-                        return <li key={i}>{el.Payee.Name}</li>;
+                    {this.state.activeData.map((el, i) => {
+                        return (
+                            <li key={i}>
+                                <CustomerCard sample={el} />
+                            </li>
+                        );
                     })}
                 </ul>
                 <Pagination
