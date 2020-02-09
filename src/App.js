@@ -21,35 +21,39 @@ class App extends React.Component {
     componentDidUpdate(prevProps, prevState) {
         if (this.state.activePage !== prevState.activePage) {
             this.setState({
-                activeData: this.makePage(sample, 6, this.state.activePage)
+                activeData: this.makePage(sample, 1, this.state.activePage)
             });
         }
     }
 
     componentDidMount() {
         this.setState({
-            activeData: this.makePage(sample, 6, this.state.activePage)
+            activeData: this.makePage(sample, 1, this.state.activePage)
         });
     }
 
     render() {
         return (
-            <div className="App">
-                <div>{this.state.activePage}</div>
-                <ul>
-                    {this.state.activeData.map((el, i) => {
-                        return (
-                            <li key={i}>
-                                <CustomerCard sample={el} />
-                            </li>
-                        );
-                    })}
-                </ul>
-                <Pagination
-                    sample={sample}
-                    handlePageSelect={this.handlePageSelect}
-                />
-            </div>
+            <>
+                <div className="container__">
+                    <ul className="custArea__">
+                        {this.state.activeData.map((el, i) => {
+                            return (
+                                <li className="custList__" key={i}>
+                                    <CustomerCard sample={el} />
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
+
+                <div className="container__ navPos__">
+                    <Pagination
+                        sample={sample}
+                        handlePageSelect={this.handlePageSelect}
+                    />
+                </div>
+            </>
         );
     }
 }
