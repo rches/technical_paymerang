@@ -34,7 +34,13 @@ class App extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="app__">
+                <div className="navContainer__">
+                    <Pagination
+                        sample={sample}
+                        handlePageSelect={this.handlePageSelect}
+                    />
+                </div>
                 <div className="container__">
                     <ul className="custArea__">
                         {this.state.activeData.map((el, i) => {
@@ -46,14 +52,7 @@ class App extends React.Component {
                         })}
                     </ul>
                 </div>
-
-                <div className="container__ navPos__">
-                    <Pagination
-                        sample={sample}
-                        handlePageSelect={this.handlePageSelect}
-                    />
-                </div>
-            </>
+            </div>
         );
     }
 }

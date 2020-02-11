@@ -43,7 +43,7 @@ General notes from the day:
 
 -   I'm not smart with math, so getting the logic for number of pages and for each page was tricky.
 
--   Really had to walk back ou tof possible rabbit holes like "what about loading all the data on the client side?, will this code be able to stand up over time?, Is this data secure or should I think about security in this challenge?"
+-   Really had to walk back out of possible rabbit holes like "what about loading all the data on the client side?, will this code be able to stand up over time?, Is this data secure or should I think about security in this challenge?"
 
 2/9/2020 - The logic to pass the array of object tied me up for a bit. Thinking logically through what part of the entire project should handle iterrating what parts of the data took a bit longer than hoped, but after some trial and error, we managed to parse it out. Moving on to styling the components. If there is time, will consider sort functions to make the data manageable.
 
@@ -51,4 +51,4 @@ General notes from the day:
 
 -   Indentified the necessary array functions to make a copy of the data and not mutate it. This is important!
 
--   Origianlly when reading the insructions, I thought about displaying 6 customer cards per page. When rereading, I believe the interpertation was to have one page display the three sections of data (Payee, Payment, Remittance). Instead of removing the function taht parsed that logic, I decided to keep it in but change the params to display only one set of data at a time. Should there be a need to see a multi-view in the future, the logic is there and can be altered quickly. Plus, it was fun.
+-   Origianlly when reading the insructions, I thought about displaying 6 customer cards per page. When rereading, I believe I misread, and the expectation was to have one page display the three sections of data (Payee, Payment, Remittance). Instead of removing the function taht parsed that logic, I decided to keep it in but change the params to display only one set of data at a time. Should there be a need to see a multi-view in the future, the logic is there and can be altered quickly. Plus, it was fun.

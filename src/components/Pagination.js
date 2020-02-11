@@ -10,11 +10,15 @@ const Pagination = props => {
     }
 
     return (
-        <ul className="container__">
+        <ul className="navPos__">
             {navContent.map(i => {
                 return (
                     <li className="navItem__" key={i}>
-                        <button onClick={props.handlePageSelect} value={i}>
+                        <button
+                            className="navButton"
+                            onClick={props.handlePageSelect}
+                            value={i}
+                        >
                             {i}
                         </button>
                     </li>
