@@ -2,18 +2,17 @@ import React from "react";
 
 const Pagination = props => {
     const sample = props.sample;
-    const navContent = [];
-    const navLength = sample.length;
+    const pages = [];
 
-    for (let i = 1; i <= navLength; i++) {
-        navContent.push(i);
+    for (let i = 1; i <= sample.length / 5; i++) {
+        pages.push(i);
     }
 
     return (
-        <ul className="navPos__">
-            {navContent.map(i => {
+        <ul className="nav__">
+            {pages.map(i => {
                 return (
-                    <li className="navItem__" key={i}>
+                    <li key={i}>
                         <button
                             className="navButton"
                             onClick={props.handlePageSelect}

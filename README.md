@@ -52,3 +52,11 @@ General notes from the day:
 -   Indentified the necessary array functions to make a copy of the data and not mutate it. This is important!
 
 -   Origianlly when reading the insructions, I thought about displaying 6 customer cards per page. When rereading, I believe I misread, and the expectation was to have one page display the three sections of data (Payee, Payment, Remittance). Instead of removing the function taht parsed that logic, I decided to keep it in but change the params to display only one set of data at a time. Should there be a need to see a multi-view in the future, the logic is there and can be altered quickly. Plus, it was fun.
+
+2/11/2020 - Converting back to a paginated view with multiple displays per page. I think I'm overthinking this and could easily be wrong, but pagination means pagination with multiple items per page so we'll go with that.
+
+The layout is cleaned up tremendously tonight and we are finalizing some small touches.
+
+This is the first time I'm using useState. I've avoided this for so long, but the syntax is really clean and allowing the ability to add state to functional components after they've been built is SUCH A RELIEF! I'm loving this, and this was one of my hangups about learning hooks. Really excited to explore that topic now!
+
+Lastly, I think some ignorance in how the data is used. Learning about who is using this data and how it's put to use would give me insight into how best to display it. Right now, this makes the most sense, but I would love to learn more about how these are all linked.
