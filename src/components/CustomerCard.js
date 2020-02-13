@@ -7,7 +7,6 @@ const CustomerCard = props => {
     const handleClick = e => {
         e.preventDefault();
         setValue(!visible);
-        console.log(visible);
     };
 
     const sample = props.sample;
