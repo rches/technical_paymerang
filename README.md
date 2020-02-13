@@ -4,7 +4,14 @@ This project is a small, single page application created to provide a tool to em
 
 ## Overview
 
-A general overview of the project will go here.
+The ask-
+As you know, we make payments on behalf of our clients. We like to be able to display the payment details in a clear, concise manner for our employees, who are responsible for ensuring the vendors receive the payments.
+
+Attached is a blob of json data that represents the following: There are multiple vendors ("Payee") who will be paid using payment cards ("Payment"), with the associated invoices attached to each payment ("Remittance").
+
+There is only one requirement - create a webpage that shows each Payee/Payment/Remittance object in a paged interface. Everything else is up to you - overall design, technology used, styling, amount of time spent on the test, etc.
+
+Upload your sample to a private Github account or email to hr@paymerang.com
 
 ## Steps Taken
 
@@ -19,15 +26,17 @@ Refined styling
 
 ## Lessons Learned
 
-Any big eureka moments will be documented here.
+Swapped to using the useState hook on day five of the project, and I am in love with the syntax. It looks, feels, and seems much more elegant. I plan to refractor the main component into a functional component with the useState hook.
 
 ## Wins
 
-Moments of success!
+We never went off the rails
+We thought through actual problems
+We solved for the problem given
 
 ## Deltas
 
-Opportunities to learn.
+Planning out a project has always felt like a weak spot, and in realizing last minute that I wanted to add a feature, it showed.
 
 ## Journal Notes
 
@@ -60,3 +69,5 @@ The layout is cleaned up tremendously tonight and we are finalizing some small t
 This is the first time I'm using useState. I've avoided this for so long, but the syntax is really clean and allowing the ability to add state to functional components after they've been built is SUCH A RELIEF! I'm loving this, and this was one of my hangups about learning hooks. Really excited to explore that topic now!
 
 Lastly, I think some ignorance in how the data is used. Learning about who is using this data and how it's put to use would give me insight into how best to display it. Right now, this makes the most sense, but I would love to learn more about how these are all linked.
+
+2/12/2020 - I woke up in the middle of the night realizing if I were using this app, I would want to sift through the data. After reading up, a clean and simple solution was to use array.filter() and the update method to compare the updated state change against the previous state to slice a filtered array. PHEW! With that, and some minor styling, we have an app that loads the data, shows the data, and allows a user to search the data. This exercise was a lot of fun!

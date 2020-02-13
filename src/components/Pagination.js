@@ -3,8 +3,9 @@ import React from "react";
 const Pagination = props => {
     const sample = props.sample;
     const pages = [];
+    const niceNumber = Math.ceil(sample.length / 5);
 
-    for (let i = 1; i <= sample.length / 5; i++) {
+    for (let i = 1; i <= niceNumber; i++) {
         pages.push(i);
     }
 
