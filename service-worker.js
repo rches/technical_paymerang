@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/technical_paymerang/precache-manifest.646361ee5d57ccb7e6fc2ec322a5c3b1.js"
+  "/technical_paymerang/precache-manifest.35059f3a36c93d225ab27a6e78fe175b.js"
 );
 
 self.addEventListener('message', (event) => {

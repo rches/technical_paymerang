@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e354257c7084227bbeb1493137631811",
+    "revision": "1bfa7fe9300cf04b77c2ef6a390f1d8f",
     "url": "/technical_paymerang/index.html"
   },
   {
-    "revision": "8be85187cbb2233dc508",
-    "url": "/technical_paymerang/static/css/main.90b8bee5.chunk.css"
+    "revision": "7abca1f571ad36d9053a",
+    "url": "/technical_paymerang/static/css/main.b9daed2e.chunk.css"
   },
   {
     "revision": "91443d33ee57119008bd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/technical_paymerang/static/js/2.b9139b79.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8be85187cbb2233dc508",
+    "revision": "7abca1f571ad36d9053a",
     "url": "/technical_paymerang/static/js/main.5cfab71e.chunk.js"
   },
   {
