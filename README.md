@@ -2,27 +2,22 @@
 
 This project is a small, single page application created to provide a tool to employees, who are responsible for ensuring the vendors receive the payments.
 
-## Overview
-
-The ask-
-As you know, we make payments on behalf of our clients. We like to be able to display the payment details in a clear, concise manner for our employees, who are responsible for ensuring the vendors receive the payments.
-
-Attached is a blob of json data that represents the following: There are multiple vendors ("Payee") who will be paid using payment cards ("Payment"), with the associated invoices attached to each payment ("Remittance").
-
-There is only one requirement - create a webpage that shows each Payee/Payment/Remittance object in a paged interface. Everything else is up to you - overall design, technology used, styling, amount of time spent on the test, etc.
-
-Upload your sample to a private Github account or email to hr@paymerang.com
-
 ## Steps Taken
 
-Identified the needs of the task
-Identified technologies to use (React)
-Researched and read up on similar ideas available in the technology
-Sketched ideas on paper including components and state housing
-Wrote first pass of code
-Wrote first pass of styling
-Refined code
-Refined styling
+-   Identified the needs of the task
+-   Identified technologies to use (React)
+-   Researched and read up on similar ideas available in the technology
+-   Sketched ideas on paper including components and state housing
+-   Wrote first pass of code
+-   Wrote first pass of styling
+-   Refined code
+-   Refined styling
+
+## Technologies Used
+
+-   ReactJS
+-   Skeleton CSS
+-   MomentJS
 
 ## Lessons Learned
 
@@ -30,13 +25,15 @@ Swapped to using the useState hook on day five of the project, and I am in love 
 
 ## Wins
 
-We never went off the rails
-We thought through actual problems
-We solved for the problem given
+I never went off the rails or too deep into a rabbit hole
+
+I was able to think through actual problems as they came up
+
+I solved for the problem given
 
 ## Deltas
 
-Planning out a project has always felt like a weak spot, and in realizing last minute that I wanted to add a feature, it showed.
+Planning out a project has always felt like a weak spot, and in realizing last minute that I wanted to add a feature, it showed. This is an area that I want to learn more to become better.
 
 ## Journal Notes
 

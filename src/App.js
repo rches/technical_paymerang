@@ -35,7 +35,6 @@ class App extends React.Component {
             filterArray = sample.filter(el =>
                 el.Payee.Name.includes(this.state.filterWord.toUpperCase())
             );
-            console.log(filterArray);
 
             this.setState({
                 activePage: 1,
