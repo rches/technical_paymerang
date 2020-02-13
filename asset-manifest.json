@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%20technical_paymerang/static/css/main.d7dd1c72.chunk.css",
+    "main.js": "/%20technical_paymerang/static/js/main.8738c395.chunk.js",
+    "main.js.map": "/%20technical_paymerang/static/js/main.8738c395.chunk.js.map",
+    "runtime-main.js": "/%20technical_paymerang/static/js/runtime-main.21971b9f.js",
+    "runtime-main.js.map": "/%20technical_paymerang/static/js/runtime-main.21971b9f.js.map",
+    "static/js/2.b9139b79.chunk.js": "/%20technical_paymerang/static/js/2.b9139b79.chunk.js",
+    "static/js/2.b9139b79.chunk.js.map": "/%20technical_paymerang/static/js/2.b9139b79.chunk.js.map",
+    "index.html": "/%20technical_paymerang/index.html",
+    "precache-manifest.778661224e8574515540f508cced288d.js": "/%20technical_paymerang/precache-manifest.778661224e8574515540f508cced288d.js",
+    "service-worker.js": "/%20technical_paymerang/service-worker.js",
+    "static/css/main.d7dd1c72.chunk.css.map": "/%20technical_paymerang/static/css/main.d7dd1c72.chunk.css.map",
+    "static/js/2.b9139b79.chunk.js.LICENSE.txt": "/%20technical_paymerang/static/js/2.b9139b79.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21971b9f.js",
+    "static/js/2.b9139b79.chunk.js",
+    "static/css/main.d7dd1c72.chunk.css",
+    "static/js/main.8738c395.chunk.js"
+  ]
+}
