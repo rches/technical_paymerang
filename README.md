@@ -2,6 +2,10 @@
 
 This project is a small, single page application created to provide a tool to employees, who are responsible for ensuring the vendors receive the payments.
 
+### Directions
+
+Clone into repo and run `npm run start` in your command line to run a local version of the app on port3000
+
 ## Steps Taken
 
 -   Identified the needs of the task
