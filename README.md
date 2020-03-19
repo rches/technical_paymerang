@@ -1,4 +1,4 @@
-# Paymerang Technical Assessment
+# Customer Transaction Coding Challenge
 
 This project is a small, single page application created to provide a tool to employees, who are responsible for ensuring the vendors receive the payments.
 
