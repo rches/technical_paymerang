@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/technical_paymerang/static/css/main.b9daed2e.chunk.css",
-    "main.js": "/technical_paymerang/static/js/main.5cfab71e.chunk.js",
-    "main.js.map": "/technical_paymerang/static/js/main.5cfab71e.chunk.js.map",
-    "runtime-main.js": "/technical_paymerang/static/js/runtime-main.74764093.js",
-    "runtime-main.js.map": "/technical_paymerang/static/js/runtime-main.74764093.js.map",
-    "static/js/2.b9139b79.chunk.js": "/technical_paymerang/static/js/2.b9139b79.chunk.js",
-    "static/js/2.b9139b79.chunk.js.map": "/technical_paymerang/static/js/2.b9139b79.chunk.js.map",
-    "index.html": "/technical_paymerang/index.html",
-    "precache-manifest.35059f3a36c93d225ab27a6e78fe175b.js": "/technical_paymerang/precache-manifest.35059f3a36c93d225ab27a6e78fe175b.js",
-    "service-worker.js": "/technical_paymerang/service-worker.js",
-    "static/css/main.b9daed2e.chunk.css.map": "/technical_paymerang/static/css/main.b9daed2e.chunk.css.map",
-    "static/js/2.b9139b79.chunk.js.LICENSE.txt": "/technical_paymerang/static/js/2.b9139b79.chunk.js.LICENSE.txt"
+    "main.css": "/transaction_ui_exercise/static/css/main.e08b63df.chunk.css",
+    "main.js": "/transaction_ui_exercise/static/js/main.47d6cce9.chunk.js",
+    "main.js.map": "/transaction_ui_exercise/static/js/main.47d6cce9.chunk.js.map",
+    "runtime-main.js": "/transaction_ui_exercise/static/js/runtime-main.b40e3709.js",
+    "runtime-main.js.map": "/transaction_ui_exercise/static/js/runtime-main.b40e3709.js.map",
+    "static/js/2.e1426fd6.chunk.js": "/transaction_ui_exercise/static/js/2.e1426fd6.chunk.js",
+    "static/js/2.e1426fd6.chunk.js.map": "/transaction_ui_exercise/static/js/2.e1426fd6.chunk.js.map",
+    "index.html": "/transaction_ui_exercise/index.html",
+    "precache-manifest.01b4e0e12f29334ad07e0c54816d1e73.js": "/transaction_ui_exercise/precache-manifest.01b4e0e12f29334ad07e0c54816d1e73.js",
+    "service-worker.js": "/transaction_ui_exercise/service-worker.js",
+    "static/css/main.e08b63df.chunk.css.map": "/transaction_ui_exercise/static/css/main.e08b63df.chunk.css.map",
+    "static/js/2.e1426fd6.chunk.js.LICENSE.txt": "/transaction_ui_exercise/static/js/2.e1426fd6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.74764093.js",
-    "static/js/2.b9139b79.chunk.js",
-    "static/css/main.b9daed2e.chunk.css",
-    "static/js/main.5cfab71e.chunk.js"
+    "static/js/runtime-main.b40e3709.js",
+    "static/js/2.e1426fd6.chunk.js",
+    "static/css/main.e08b63df.chunk.css",
+    "static/js/main.47d6cce9.chunk.js"
   ]
 }
